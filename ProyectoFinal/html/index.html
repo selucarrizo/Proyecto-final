@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Papelería</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Sakura logo">
+                </a>
+            </div>
+            <ul id="ulmenu" class="nav-links">
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                &#9776; <!-- Icono de hamburguesa -->
+            </div>
+            <div id="icono-carrito">
+                <a href="carrito.html">
+                    <img src="/ProyectoFinal/img/carrito.png" alt="Carrito" width="30">
+                    <span id="cantidad-carrito" class="cantidad-carrito">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Imagen de presentación -->
+    <div class="mask-slider-inicio">
+        <img src="sakura.png" alt="Sakura imagen" class="imagen-fondo" />
+        <div class="overlay">
+            <div class="contenido-presentacion">
+                <h2>Sakura papelería, encuentra artículos de tu preferencia</h2>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="productos-title">Productos</h3>
+    <section id="boxproductos" class="productos-container"></section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Sakura Papelería. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/ProyectoFinal/js/funciones.js"></script>
+</body>
+</html>

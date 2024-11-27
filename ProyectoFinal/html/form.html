@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Papelería - Carrito</title>
+    <link rel="stylesheet" href="/ProyectoFinal/css/form.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/ProyectoFinal/img/logo.png" alt="Logo de Sakura Papelería">
+                </a>
+            </div>
+            <ul id="ulmenu" class="nav-links">
+                <!-- Aquí puedes agregar enlaces de navegación -->
+            </ul>
+            <div class="menu-icon" id="menu-icon" aria-label="Menú desplegable">
+                &#9776; <!-- Icono de hamburguesa -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Carrito de Compras</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Cantidad</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody id="tablacarrito">
+                <!-- Los productos del carrito se cargarán dinámicamente aquí -->
+            </tbody>
+        </table>
+        <!-- Botón para vaciar el carrito -->
+        <button id="vaciarCarrito" class="vaciar-btn">Vaciar carrito</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sakura Papelería. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/ProyectoFinal/js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f1f9; /* Rosa claro */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #ff66b2; /* Rosa fuerte */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffccf2; /* Rosa pastel */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #e60073; /* Rosa intenso */
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff99cc; /* Rosa suave */
+    font-weight: bold;
+    color: #e60073; /* Rosa intenso */
+}
+
+td {
+    background-color: #fff;
+}
+
+td img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+/* Button for emptying the cart */
+.vaciar-btn {
+    background-color: #e60073; /* Rosa intenso */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vaciar-btn:hover {
+    background-color: #d10066; /* Rosa más oscuro */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 40px;
+    font-size: 1em;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-icon {
+        margin-top: 10px;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    .vaciar-btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
